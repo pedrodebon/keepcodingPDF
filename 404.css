@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+}
+
+body {
+	background: #2e476b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div {
+	background: #ffffff;
+	width: 50%;
+	height: 30%;
+	border-radius: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+div:hover , div:hover a, div:hover h1, div:hover p{
+	background: #efefef;
+	opacity: 0.8;
+}
+
+h1, p, a {
+	background: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #AEC9EE;
+}
