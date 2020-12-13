@@ -35,7 +35,10 @@
 	/* Responsive para las series */
 	#div_responsive {
 		display: inline;
-		padding-top: 20px;
+	}
+
+	#div_responsive>div:first-of-type {
+		padding-top: 50px;
 	}
 	
 	#div_1 {
@@ -46,6 +49,21 @@
 	#div_1 video {
 		height: auto;
 		width: 100%;
+	}
+
+	#div_otras {
+		width: 100% !important;
+		height: auto;
+		margin-bottom: 30px;
+	}
+
+	#div_otras>div:last-of-type {
+		display: none;
+	}
+
+	#div_otras img {
+		height: auto;
+		width: 100px;
 	}
 	
 	/* Responsive para el menu */
