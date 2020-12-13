@@ -1,0 +1,50 @@
+* {
+	margin: 0px;
+}
+
+body {
+	background: #2e476b;
+}
+
+div {
+	width: 100%;
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+div>a {
+	padding: 5px;
+}
+
+img {
+	border-radius: 15%;
+	border: 2px solid #ffffff;
+}
+
+.img_hover p {
+	background-color: #ffffff; 
+	display: none; 
+	padding: 0px;
+	position: absolute;
+	border-radius: 10%;
+	border: 2px solid #000000;
+	margin-top: -50px;
+	margin-left: 40px;
+
+}
+			
+.img_hover:hover>p {
+	display: block;
+	width: 50%;
+	height: 10%;
+	opacity: 1;
+	z-index: 2;
+}
+
+.icon {
+	position: absolute;
+	margin-left: 10px;
+	border: none;
+}
